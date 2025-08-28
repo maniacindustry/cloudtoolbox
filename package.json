@@ -1,6 +1,6 @@
 {
   "name": "Cloud Tool Box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One container that collects all your favorite feature and functions that you use but don't realls know that you do.",
   "main": "app.js",
   "scripts": {
