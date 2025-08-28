@@ -31,5 +31,5 @@ ${pkg.license}
 `;
 
 fs.writeFileSync("README.md", readmeContent);
-console.log("✅ README.md generated successfully!");
+console.log("✅");
 

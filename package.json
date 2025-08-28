@@ -1,14 +1,13 @@
 {
-  "name": "cloudtoolbox",
+  "name": "Cloud Tool Box",
   "version": "1.0.0",
-  "description": "cloudtoolbox",
+  "description": "One container that collects all your favorite feature and functions that you use but don't realls know that you do.",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "prod": "node app.js",
-    "genrm": "node gen_readme.js"
+    "prod": "node app.js"
   },
-  "author": "maniacindustry",
+  "author": "Maniac Industry",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.1",

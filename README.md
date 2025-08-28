@@ -1,6 +1,6 @@
-# cloudtoolbox
+# Cloud Tool Box
 
-cloudtoolbox
+One container that collects all your favorite feature and functions that you use but don't realls know that you do.
 
 ## Version
 `1.0.0`
@@ -21,7 +21,7 @@ node app.js
 ```
 
 ## Author
-maniacindustry
+Maniac Industry
 
 ## License
 ISC

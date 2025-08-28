@@ -9,7 +9,6 @@ opts = {
 log = SimpleNodeLogger.createSimpleLogger(opts);
 const path = require('path');
 const express = require('express');
-const { stringify } = require("querystring");
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
