@@ -21,11 +21,18 @@ app.get('/', async (req, res) => {
     endpoints: ['/publicip'],
     version: appInfo.version
   };
-  log.info(data);
   res.json(data);
-})
+});
+
+app.get('/publicip', async (req, res) => {
+  const ip = req.headers['x-forwarded-for']?.split(',')[0].trim() || req.connection.remoteAddress || req.socket.remoteAddress;
+  res.setHeader("Content-Type", "application/json");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST");
+  res.status(200).send(ip);
+});
 
 var port = process.env.PORT || 80;
 app.listen(port, async () => {
-  log.info('server listen | Port ' + port);
+  log.info('App started | Port ' + port);
 });

@@ -3,7 +3,7 @@
 One container that collects all your favorite feature and functions that you use but don't realls know that you do.
 
 ## Version
-`1.0.1`
+`1.1.0`
 
 ## Installation
 ```bash
