@@ -27,6 +27,7 @@ Maniac Industry
 ISC
 
 ```mermaid
-graph TD;
-    Frontend[Frontend (React)] -->|HTTP| Backend[Backend (Node.js/Express)];
-    Backend -->|SQL| Database[Database (PostgreSQL)];
+	graph TD;
+		Frontend[Frontend (React)] -->|HTTP| Backend[Backend (Node.js/Express)];
+		Backend -->|SQL| Database[Database (PostgreSQL)];
+```

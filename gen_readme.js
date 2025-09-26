@@ -30,9 +30,10 @@ ${pkg.author}
 ${pkg.license}
 
 \`\`\`mermaid
-graph TD;
-    Frontend[Frontend (React)] -->|HTTP| Backend[Backend (Node.js/Express)];
-    Backend -->|SQL| Database[Database (PostgreSQL)];
+	graph TD;
+		Frontend[Frontend (React)] -->|HTTP| Backend[Backend (Node.js/Express)];
+		Backend -->|SQL| Database[Database (PostgreSQL)];
+\`\`\`
 `;
 
 fs.writeFileSync("README.md", readmeContent);
